@@ -1,19 +1,17 @@
 package com.example.simpleparadox.listycity;
 
 public class City {
-    private String city;
-    private String province;
+    private String name;
 
-    City(String city, String province){
-        this.city = city;
-        this.province = province;
+    public City(String name) {
+        this.name = name;
     }
 
-    String getCityName(){
-        return this.city;
+    public String getName() {
+        return name;
     }
 
-    String getProvinceName(){
-        return this.province;
+    public void setName(String name) {
+        this.name = name;
     }
 }
